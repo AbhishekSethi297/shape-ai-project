@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* css for header  */
+
+.header{
+    height: 90px;
+    width: 100%;
+    background-color:BLACK; 
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.logo img{
+    height: 80%;
+  
+}
+
+
+
+.container{
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+
+}
+
+.header_container{
+    justify-content: space-between;    
+}
+
+.logo{
+    height: 90px;
+    width: 15%;
+    /* background-color: yellow; */
+    font-size: 40px;
+    font-family: segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+
+.nav{
+    height: 90px;
+    width: 35%;
+    /* background-color: green; */
+    display: flex;
+}
+
+
+.nav-item{
+    width: 20%;
+    height: 90px;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.nav-item:hover {
+    background-color: white;
+    color: rgb(3, 10, 15);
+    
+}
+
+
+a {
+     text-decoration:none;
+ }
+ .CONTENT{
+    height:500x;
+    width:500px;
+    padding:100px;
+    display:flex;
+
+ }
+ .IMAGE{
+     height:500px;
+     width:500px;
+    
+ }
+ .IMAGE img{
+     width:100%;
+     height:100%;
+     object-fit: contain;
+     display:flex;
+
+
+ }
+ 
+ 
